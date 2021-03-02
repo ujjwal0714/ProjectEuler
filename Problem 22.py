@@ -12,8 +12,8 @@ for i in f:
 
 # --- --- ---
 # sorting of l
-m=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
-n=[i.upper() for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+m=[[] for i in range(26)]
+n=[i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 
 for i in l:
     v1=n.index(i[0])
