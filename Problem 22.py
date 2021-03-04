@@ -11,7 +11,7 @@ for i in f:
     l=i  # l is the list of names.
 
 # --- --- ---
-# sorting of l
+# sorting list l in alphabetical order.
 m=[[] for i in range(26)]
 n=[i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 
